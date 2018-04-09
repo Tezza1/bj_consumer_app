@@ -1,0 +1,63 @@
+/* Titlebar */
+.titlebar-main {
+    margin-bottom: 4em;
+    margin-top: 0;
+}
+.titlebar-image {
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+.titlebar-title-main {
+    font-size: 450%;
+}
+
+.titlebar-title-sub {
+    font-size: 250%;
+}
+
+.main-header {
+    color: #131364;
+}
+
+/* Category buttons */
+.category-button {
+    margin: 2em 1em 1em 1em; 
+    padding: 2em 1em;
+}
+
+.category-button-bottom {
+    margin: 1em 1em 2em 1em; 
+    padding: 2em 1em;
+}
+
+/* Category sub-title */
+.category-subtitle {
+    color: #131364; 
+    margin-top: 1em;
+}
+
+.category-card-row {
+    margin-bottom: 2em;
+}
+
+/* BE Method */
+.method-container {
+    margin-top: 2em; 
+    margin-bottom: 2em;
+}
+
+.berlitz-method-image {
+    max-width: 100%;
+}
+
+.purple-button:hover {
+    background-color: #8B008B !important;
+}
+
+/* Display language */
+.eng-lang {
+    display: none;
+}
+
+

@@ -1,0 +1,15 @@
+.navbar-brand {
+    max-width: 120px;
+}
+
+.main-header {
+    color: #131364;
+}
+
+.eng-lang {
+    display: none;
+}
+
+.purple-button:hover {
+    background-color: #8B008B !important;
+}

@@ -1,0 +1,1304 @@
+﻿@charset "UTF-8";
+/*==================================================
+	Reset Old Style
+==================================================*/
+/*--------------------------------------------------
+	/shared/css_renew15/base.css 打消し
+--------------------------------------------------*/
+header,
+footer {
+  display: block !important;
+}
+
+footer ul {
+  width: initial;
+}
+footer ul li a {
+  width: auto;
+  padding: 0;
+  border-bottom-width: 0;
+  display: inline-block;
+}
+footer ul li:last-child {
+  border-bottom-width: 0;
+}
+
+#str-header h1,
+#str-header h2,
+#str-header h3,
+#str-header h4,
+#str-header h5,
+#str-header p,
+#str-header pre,
+#str-header ol,
+#str-header ul,
+#str-header dl,
+#str-footer h1,
+#str-footer h2,
+#str-footer h3,
+#str-footer h4,
+#str-footer h5,
+#str-footer p,
+#str-footer pre,
+#str-footer ol,
+#str-footer ul,
+#str-footer dl {
+  margin: 0 0 1em;
+}
+#str-header h1,
+#str-footer h1 {
+  width: auto;
+  padding: 0;
+}
+#str-header p,
+#str-footer p {
+  font-size: 16px;
+}
+@media screen and (max-width: 767px) {
+  #str-header p,
+  #str-footer p {
+    font-size: 13px;
+  }
+}
+#str-header img,
+#str-footer img {
+  vertical-align: baseline;
+}
+#str-header [class*="icon-"],
+#str-footer [class*="icon-"] {
+  background: transparent none;
+  display: inline;
+  height: auto;
+  margin: auto;
+  overflow: visible;
+}
+
+/*--------------------------------------------------
+	/shared/css_renew15/base_s.css 打消し
+--------------------------------------------------*/
+header {
+  height: auto;
+  padding: 0;
+  background-color: transparent;
+}
+header a,
+header img {
+  display: inline;
+}
+
+#str-header div,
+#str-header span,
+#str-header applet,
+#str-header object,
+#str-header iframe,
+#str-header h1,
+#str-header h2,
+#str-header h3,
+#str-header h4,
+#str-header h5,
+#str-header h6,
+#str-header p,
+#str-header blockquote,
+#str-header pre,
+#str-header a,
+#str-header abbr,
+#str-header acronym,
+#str-header address,
+#str-header big,
+#str-header cite,
+#str-header code,
+#str-header del,
+#str-header dfn,
+#str-header em,
+#str-header font,
+#str-header img,
+#str-header ins,
+#str-header kbd,
+#str-header q,
+#str-header s,
+#str-header samp,
+#str-header small,
+#str-header strike,
+#str-header strong,
+#str-header sub,
+#str-header sup,
+#str-header tt,
+#str-header var,
+#str-header dl,
+#str-header dt,
+#str-header dd,
+#str-header ol,
+#str-header ul,
+#str-header li,
+#str-header fieldset,
+#str-header form,
+#str-header label,
+#str-header legend,
+#str-header table,
+#str-header caption,
+#str-header tbody,
+#str-header tfoot,
+#str-header thead,
+#str-header tr,
+#str-header th,
+#str-header td,
+#str-footer div,
+#str-footer span,
+#str-footer applet,
+#str-footer object,
+#str-footer iframe,
+#str-footer h1,
+#str-footer h2,
+#str-footer h3,
+#str-footer h4,
+#str-footer h5,
+#str-footer h6,
+#str-footer p,
+#str-footer blockquote,
+#str-footer pre,
+#str-footer a,
+#str-footer abbr,
+#str-footer acronym,
+#str-footer address,
+#str-footer big,
+#str-footer cite,
+#str-footer code,
+#str-footer del,
+#str-footer dfn,
+#str-footer em,
+#str-footer font,
+#str-footer img,
+#str-footer ins,
+#str-footer kbd,
+#str-footer q,
+#str-footer s,
+#str-footer samp,
+#str-footer small,
+#str-footer strike,
+#str-footer strong,
+#str-footer sub,
+#str-footer sup,
+#str-footer tt,
+#str-footer var,
+#str-footer dl,
+#str-footer dt,
+#str-footer dd,
+#str-footer ol,
+#str-footer ul,
+#str-footer li,
+#str-footer fieldset,
+#str-footer form,
+#str-footer label,
+#str-footer legend,
+#str-footer table,
+#str-footer caption,
+#str-footer tbody,
+#str-footer tfoot,
+#str-footer thead,
+#str-footer tr,
+#str-footer th,
+#str-footer td {
+  line-height: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+}
+#str-header a,
+#str-footer a {
+  line-height: inherit;
+}
+
+/*==================================================
+	Default Style for Header/Footer
+==================================================*/
+#str-header,
+#str-footer {
+  background-color: #fff;
+  color: #202020;
+  font-family: "メイリオ", Meiryo, "Helvetica", "Arial", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  line-height: 1.625;
+  font-size: 16px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+@media screen and (max-width: 767px) {
+  #str-header,
+  #str-footer {
+    line-height: 1.38462;
+    font-size: 13px;
+  }
+}
+#str-header header,
+#str-header footer,
+#str-header main,
+#str-header nav,
+#str-header section,
+#str-header article,
+#str-header aside,
+#str-header figure,
+#str-footer header,
+#str-footer footer,
+#str-footer main,
+#str-footer nav,
+#str-footer section,
+#str-footer article,
+#str-footer aside,
+#str-footer figure {
+  display: block;
+}
+#str-header a[href], #str-header a[href]:visited,
+#str-footer a[href],
+#str-footer a[href]:visited {
+  color: #009ee1;
+  text-decoration: none;
+}
+#str-header a[href]:hover, #str-header a[href]:active, #str-header a[href]:focus,
+#str-footer a[href]:hover,
+#str-footer a[href]:active,
+#str-footer a[href]:focus {
+  color: #202020;
+  text-decoration: underline;
+}
+#str-header h1,
+#str-header h2,
+#str-header h3,
+#str-header h4,
+#str-header h5,
+#str-header h6,
+#str-footer h1,
+#str-footer h2,
+#str-footer h3,
+#str-footer h4,
+#str-footer h5,
+#str-footer h6 {
+  line-height: 1.333;
+}
+@media screen and (max-width: 767px) {
+  #str-header h1,
+  #str-header h2,
+  #str-header h3,
+  #str-header h4,
+  #str-header h5,
+  #str-header h6,
+  #str-footer h1,
+  #str-footer h2,
+  #str-footer h3,
+  #str-footer h4,
+  #str-footer h5,
+  #str-footer h6 {
+    line-height: 1.222;
+  }
+}
+#str-header p,
+#str-header ul,
+#str-header ol,
+#str-header table,
+#str-footer p,
+#str-footer ul,
+#str-footer ol,
+#str-footer table {
+  margin-bottom: 1em;
+}
+#str-header li,
+#str-footer li {
+  margin-bottom: 0.3em;
+  line-height: 1.333;
+}
+@media screen and (max-width: 767px) {
+  #str-header li,
+  #str-footer li {
+    margin-bottom: 0.6em;
+    line-height: 1.222;
+  }
+}
+#str-header th,
+#str-header td,
+#str-footer th,
+#str-footer td {
+  line-height: 1.333;
+}
+@media screen and (max-width: 767px) {
+  #str-header th,
+  #str-header td,
+  #str-footer th,
+  #str-footer td {
+    line-height: 1.222;
+  }
+}
+#str-header strong,
+#str-footer strong {
+  color: #c53536;
+  font-weight: bold;
+}
+#str-header em,
+#str-footer em {
+  font-weight: bold;
+  font-style: normal;
+}
+#str-header em em,
+#str-footer em em {
+  color: #c53536;
+}
+#str-header b,
+#str-footer b {
+  font-weight: bold;
+}
+#str-header img,
+#str-footer img {
+  max-width: 100%;
+}
+#str-header input,
+#str-header select,
+#str-header textarea,
+#str-header button,
+#str-footer input,
+#str-footer select,
+#str-footer textarea,
+#str-footer button {
+  font-family: "メイリオ", Meiryo, "Helvetica", "Arial", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: inherit;
+}
+#str-header button,
+#str-footer button {
+  line-height: 1.333;
+}
+@media screen and (max-width: 767px) {
+  #str-header button,
+  #str-footer button {
+    line-height: 1.222;
+  }
+}
+
+/*==================================================
+	Modules for Header/Footer
+==================================================*/
+#str-header,
+#str-footer {
+  /* Text .icon-blank-02
+  ---------------------------------------------*/
+  /* Heading .hdg-01
+  ---------------------------------------------*/
+  /* Link .link-01
+  ---------------------------------------------*/
+  /* Botton .btn-contact
+  ---------------------------------------------*/
+  /* Botton .btn-close
+  ---------------------------------------------*/
+  /* Link Box .linkbox-01
+  ---------------------------------------------*/
+  /* Index .ind-01
+  ---------------------------------------------*/
+  /* toggle
+  ---------------------------------------------*/
+  /*--------------------------------------------------
+  	Column adjustment
+  --------------------------------------------------*/
+  /*--------------------------------------------------
+  	05. Support
+  --------------------------------------------------*/
+  /* margin-bottom
+  ---------------------------------------------*/
+  /* font
+  ---------------------------------------------*/
+}
+#str-header .icon-blank-02,
+#str-footer .icon-blank-02 {
+  margin: 0 8px 0 4px;
+  width: 9px;
+}
+#str-header .hdg-01,
+#str-footer .hdg-01 {
+  width: 100%;
+  margin-bottom: 24px;
+  border-bottom: 2px solid #14126f;
+  display: table;
+  line-height: 1.333;
+}
+@media screen and (max-width: 767px) {
+  #str-header .hdg-01,
+  #str-footer .hdg-01 {
+    line-height: 1.222;
+  }
+}
+#str-header .hdg-01 .hdg,
+#str-footer .hdg-01 .hdg {
+  padding-bottom: 3px;
+  display: table-cell;
+  color: #14126f;
+  font-size: 22px;
+  font-weight: bold;
+}
+#str-header .hdg-01 .hdg em,
+#str-footer .hdg-01 .hdg em {
+  font-size: 32px;
+}
+#str-header .hdg-01 .link,
+#str-footer .hdg-01 .link {
+  display: table-cell;
+  text-align: right;
+  vertical-align: middle;
+  padding-left: 13px;
+}
+#str-header .hdg-01 .link a[href],
+#str-footer .hdg-01 .link a[href] {
+  position: relative;
+}
+#str-header .hdg-01 .link a[href]::before,
+#str-footer .hdg-01 .link a[href]::before {
+  width: 6px;
+  height: 6px;
+  border-right: 2px solid #14126f;
+  border-bottom: 2px solid #14126f;
+  display: block;
+  position: absolute;
+  left: -13px;
+  top: 0.35em;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  content: "";
+}
+#str-header .link-01,
+#str-footer .link-01 {
+  padding-left: 0;
+}
+#str-header .link-01 > li,
+#str-footer .link-01 > li {
+  list-style-type: none;
+}
+#str-header .link-01 li,
+#str-footer .link-01 li {
+  box-sizing: border-box;
+  padding-left: 13px;
+}
+#str-header .link-01 li a[href],
+#str-footer .link-01 li a[href] {
+  position: relative;
+}
+#str-header .link-01 li a[href]::before,
+#str-footer .link-01 li a[href]::before {
+  width: 6px;
+  height: 6px;
+  border-right: 2px solid #14126f;
+  border-bottom: 2px solid #14126f;
+  display: block;
+  position: absolute;
+  left: -13px;
+  top: 0.42em;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  content: "";
+}
+@media screen and (max-width: 767px) {
+  #str-header .link-01 li,
+  #str-footer .link-01 li {
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #str-header .link-01 li a[href]::before,
+  #str-footer .link-01 li a[href]::before {
+    height: 4px;
+    width: 4px;
+    margin-top: -2px;
+    left: -10px;
+    top: 0.63em;
+  }
+}
+#str-header .link-01._inline li,
+#str-footer .link-01._inline li {
+  display: inline-block;
+  vertical-align: top;
+}
+#str-header .link-01._inline li:last-child,
+#str-footer .link-01._inline li:last-child {
+  margin-right: 0;
+}
+#str-header .btn-contact,
+#str-footer .btn-contact {
+  padding-left: 0;
+  width: 100%;
+  display: table;
+  font-size: 28px;
+}
+#str-header .btn-contact > li,
+#str-footer .btn-contact > li {
+  list-style-type: none;
+}
+@media screen and (max-width: 767px) {
+  #str-header .btn-contact,
+  #str-footer .btn-contact {
+    font-size: 14px;
+  }
+}
+#str-header .btn-contact li,
+#str-footer .btn-contact li {
+  padding-left: 28px;
+  display: table-cell;
+}
+@media screen and (max-width: 767px) {
+  #str-header .btn-contact li,
+  #str-footer .btn-contact li {
+    padding-left: 10px;
+  }
+}
+#str-header .btn-contact li:first-child,
+#str-footer .btn-contact li:first-child {
+  padding-left: 0;
+}
+#str-header .btn-contact li .txt-sub,
+#str-footer .btn-contact li .txt-sub {
+  display: block;
+  font-size: 14px;
+}
+@media screen and (max-width: 767px) {
+  #str-header .btn-contact li .txt-sub,
+  #str-footer .btn-contact li .txt-sub {
+    font-size: 10px;
+    font-weight: normal;
+  }
+}
+#str-header .btn-contact li a,
+#str-footer .btn-contact li a {
+  padding: 14px 32px 10px 10px;
+  border-radius: 4px;
+  display: block;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+}
+@media screen and (max-width: 767px) {
+  #str-header .btn-contact li a,
+  #str-footer .btn-contact li a {
+    padding: 11px 16px 11px 4px;
+    border-radius: 2px;
+  }
+}
+#str-header .btn-contact li a[href]::after,
+#str-footer .btn-contact li a[href]::after {
+  width: 10px;
+  height: 10px;
+  margin-top: -6.5px;
+  border-right: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  content: "";
+}
+@media screen and (max-width: 767px) {
+  #str-header .btn-contact li a[href]::after,
+  #str-footer .btn-contact li a[href]::after {
+    height: 5px;
+    width: 5px;
+    margin-top: -2.5px;
+    border-width: 2px;
+    right: 5px;
+  }
+}
+#str-header .btn-contact li.reserve a,
+#str-footer .btn-contact li.reserve a {
+  background-color: #ff7800;
+}
+#str-header .btn-contact li.reserve a[href], #str-header .btn-contact li.reserve a[href]:visited,
+#str-footer .btn-contact li.reserve a[href],
+#str-footer .btn-contact li.reserve a[href]:visited {
+  color: #fff;
+}
+#str-header .btn-contact li.reserve a[href]:hover, #str-header .btn-contact li.reserve a[href]:active, #str-header .btn-contact li.reserve a[href]:focus,
+#str-footer .btn-contact li.reserve a[href]:hover,
+#str-footer .btn-contact li.reserve a[href]:active,
+#str-footer .btn-contact li.reserve a[href]:focus {
+  background-color: #ff9a00;
+  color: #fff;
+  text-decoration: none;
+}
+#str-header .btn-contact li.request a,
+#str-footer .btn-contact li.request a {
+  background-color: #009ee1;
+}
+#str-header .btn-contact li.request a[href], #str-header .btn-contact li.request a[href]:visited,
+#str-footer .btn-contact li.request a[href],
+#str-footer .btn-contact li.request a[href]:visited {
+  color: #fff;
+}
+#str-header .btn-contact li.request a[href]:hover, #str-header .btn-contact li.request a[href]:active, #str-header .btn-contact li.request a[href]:focus,
+#str-footer .btn-contact li.request a[href]:hover,
+#str-footer .btn-contact li.request a[href]:active,
+#str-footer .btn-contact li.request a[href]:focus {
+  background-color: #4cbbe9;
+  color: #fff;
+  text-decoration: none;
+}
+#str-header .btn-close button,
+#str-footer .btn-close button {
+  width: 100%;
+  padding: 12px 5px 11px;
+  border-width: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #14126f;
+  background-color: #cfd6e4;
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  #str-header .btn-close button,
+  #str-footer .btn-close button {
+    font-size: 13px;
+  }
+}
+#str-header .btn-close button:before,
+#str-footer .btn-close button:before {
+  margin-right: 8px;
+  content: url(/shared/images_renew16/icon_close_01.png);
+}
+@media screen and (max-width: 767px) {
+  #str-header .btn-close button::before,
+  #str-footer .btn-close button::before {
+    margin: 0 4px -1px 0;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: url(/shared/images_renew16/icon_close_01.png) no-repeat 0 0;
+    background-size: cover;
+    content: "";
+  }
+}
+#str-header .btn-close button:hover, #str-header .btn-close button:active, #str-header .btn-close button:focus,
+#str-footer .btn-close button:hover,
+#str-footer .btn-close button:active,
+#str-footer .btn-close button:focus {
+  background-color: #8988b7;
+}
+#str-header .linkbox-01,
+#str-footer .linkbox-01 {
+  padding-left: 0;
+}
+#str-header .linkbox-01 > li,
+#str-footer .linkbox-01 > li {
+  list-style-type: none;
+}
+#str-header .linkbox-01 > li > a,
+#str-footer .linkbox-01 > li > a {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px #cfd6e4 solid;
+  display: table;
+}
+#str-header .linkbox-01 > li > a > .tmb,
+#str-footer .linkbox-01 > li > a > .tmb {
+  display: table-cell;
+}
+#str-header .linkbox-01 > li > a > .tmb img,
+#str-footer .linkbox-01 > li > a > .tmb img {
+  max-width: initial;
+  vertical-align: top;
+}
+#str-header .linkbox-01 > li > a > .txt,
+#str-footer .linkbox-01 > li > a > .txt {
+  width: 100%;
+  /* max-width */
+  padding: 5px 20px;
+  display: table-cell;
+  position: relative;
+  color: #14126f;
+  font-size: 20px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+#str-header .linkbox-01 > li > a[href],
+#str-footer .linkbox-01 > li > a[href] {
+  padding-right: 13px;
+}
+#str-header .linkbox-01 > li > a[href] > .txt::after,
+#str-footer .linkbox-01 > li > a[href] > .txt::after {
+  margin-top: -4.5px;
+  display: block;
+  position: absolute;
+  right: 2px;
+  top: 50%;
+  border-right: 3px solid #14126f;
+  border-bottom: 3px solid #14126f;
+  width: 7px;
+  height: 7px;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  content: "";
+}
+#str-header .linkbox-01 > li > a[href]:hover, #str-header .linkbox-01 > li > a[href]:active, #str-header .linkbox-01 > li > a[href]:focus,
+#str-footer .linkbox-01 > li > a[href]:hover,
+#str-footer .linkbox-01 > li > a[href]:active,
+#str-footer .linkbox-01 > li > a[href]:focus {
+  background: #cfd6e4;
+  text-decoration: none;
+}
+#str-header .linkbox-01 > li.em > a,
+#str-footer .linkbox-01 > li.em > a {
+  border-width: 4px;
+}
+#str-header .linkbox-01 > li.em > a > .txt,
+#str-footer .linkbox-01 > li.em > a > .txt {
+  text-decoration: underline;
+}
+#str-header .ind-01,
+#str-footer .ind-01 {
+  margin-bottom: 1em;
+  display: table;
+  /* /shared/css_renew15/course.css 打消し */
+}
+#str-header .ind-01 > .tmb,
+#str-footer .ind-01 > .tmb {
+  border: 1px #cfd6e4 solid;
+  border-right-width: 0;
+  box-sizing: border-box;
+  display: table-cell;
+  vertical-align: top;
+}
+#str-header .ind-01 > .tmb img,
+#str-footer .ind-01 > .tmb img {
+  max-width: initial;
+  vertical-align: top;
+}
+#str-header .ind-01 > .txt,
+#str-footer .ind-01 > .txt {
+  width: 100%;
+  /* max-width */
+  border-top: 1px #cfd6e4 solid;
+  box-sizing: border-box;
+  display: table-cell;
+}
+#str-header .ind-01 > .txt .hdg,
+#str-footer .ind-01 > .txt .hdg {
+  width: 100%;
+  margin-bottom: 0;
+  box-sizing: border-box;
+  display: table;
+  font-size: 16px;
+  font-weight: bold;
+}
+#str-header .ind-01 > .txt .hdg > .inner,
+#str-footer .ind-01 > .txt .hdg > .inner {
+  display: table-cell;
+  padding: 3px 20px;
+  border-bottom: 1px #cfd6e4 solid;
+  border-right: 1px #cfd6e4 solid;
+  vertical-align: middle;
+}
+#str-header .ind-01 > .txt .link,
+#str-footer .ind-01 > .txt .link {
+  padding-left: 0;
+  margin-bottom: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: table;
+  color: #14126f;
+  font-size: 16px;
+  font-weight: bold;
+}
+#str-header .ind-01 > .txt .link > li,
+#str-footer .ind-01 > .txt .link > li {
+  list-style-type: none;
+}
+#str-header .ind-01 > .txt .link > li,
+#str-footer .ind-01 > .txt .link > li {
+  display: table-row;
+}
+#str-header .ind-01 > .txt .link > li a,
+#str-footer .ind-01 > .txt .link > li a {
+  padding: 3px 20px;
+  border-bottom: 1px #cfd6e4 solid;
+  border-right: 1px #cfd6e4 solid;
+  display: table-cell;
+  color: #14126f;
+  vertical-align: middle;
+  position: relative;
+}
+#str-header .ind-01 > .txt .link > li a[href]::after,
+#str-footer .ind-01 > .txt .link > li a[href]::after {
+  width: 7px;
+  height: 7px;
+  margin-top: -5px;
+  border-right: 3px solid #14126f;
+  border-bottom: 3px solid #14126f;
+  display: block;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  content: "";
+}
+#str-header .ind-01 > .txt .link > li a[href],
+#str-footer .ind-01 > .txt .link > li a[href] {
+  padding-right: 33px;
+}
+#str-header .ind-01 > .txt .link > li a[href]:hover, #str-header .ind-01 > .txt .link > li a[href]:active, #str-header .ind-01 > .txt .link > li a[href]:focus,
+#str-footer .ind-01 > .txt .link > li a[href]:hover,
+#str-footer .ind-01 > .txt .link > li a[href]:active,
+#str-footer .ind-01 > .txt .link > li a[href]:focus {
+  background: #cfd6e4;
+  text-decoration: none;
+}
+#str-header .ind-01._line-2 .line,
+#str-footer .ind-01._line-2 .line {
+  min-height: 50%;
+  height: 50%;
+}
+#str-header .ind-01._line-3 .line,
+#str-footer .ind-01._line-3 .line {
+  min-height: 33.33%;
+  height: 33.33%;
+}
+#str-header .ind-01._line-3 ._line-2,
+#str-footer .ind-01._line-3 ._line-2 {
+  min-height: 66.67%;
+  height: 66.67%;
+}
+#str-header .ind-01._line-2 .line, #str-header .ind-01._line-3 .line,
+#str-footer .ind-01._line-2 .line,
+#str-footer .ind-01._line-3 .line {
+  padding-bottom: 0;
+  border-bottom-width: 0;
+}
+.js-enable #str-header .js-toggle .js-toggle-hook, .js-enable
+#str-footer .js-toggle .js-toggle-hook {
+  cursor: pointer;
+}
+.js-enable #str-header .js-toggle > .js-toggle-content, .js-enable
+#str-footer .js-toggle > .js-toggle-content {
+  display: none;
+}
+.js-enable #str-header .js-toggle.is-open > .js-toggle-content, .js-enable
+#str-footer .js-toggle.is-open > .js-toggle-content {
+  display: block;
+}
+#str-header .col-2,
+#str-footer .col-2 {
+  margin-left: -1.42857%;
+  /* for IE8 */
+  margin-right: -1.42857%;
+  /* for IE8 */
+  margin-left: calc(-14px);
+  margin-right: calc(-14px);
+}
+#str-header .col-2:after,
+#str-footer .col-2:after {
+  /* IE8対策でシングルコロン */
+  display: block;
+  clear: both;
+  content: "";
+}
+#str-header .col-2 > .part,
+#str-header .col-2 > li,
+#str-footer .col-2 > .part,
+#str-footer .col-2 > li {
+  width: 47.14286%;
+  /* for IE8 */
+  width: calc((100% - 28px - 28px)/2);
+  margin-left: 1.42857%;
+  /* for IE8 */
+  margin-right: 1.42857%;
+  /* for IE8 */
+  margin-left: calc(14px);
+  margin-right: calc(14px);
+  float: left;
+}
+#str-header .mb-00,
+#str-footer .mb-00 {
+  margin-bottom: 0 !important;
+}
+#str-header .mb-05,
+#str-footer .mb-05 {
+  margin-bottom: 5px !important;
+}
+#str-header .mb-10,
+#str-footer .mb-10 {
+  margin-bottom: 10px !important;
+}
+#str-header .mb-20,
+#str-footer .mb-20 {
+  margin-bottom: 20px !important;
+}
+#str-header .mb-30,
+#str-footer .mb-30 {
+  margin-bottom: 30px !important;
+}
+#str-header .mb-40,
+#str-footer .mb-40 {
+  margin-bottom: 40px !important;
+}
+#str-header .mb-50,
+#str-footer .mb-50 {
+  margin-bottom: 50px !important;
+}
+#str-header .mb-60,
+#str-footer .mb-60 {
+  margin-bottom: 60px !important;
+}
+#str-header .mb-70,
+#str-footer .mb-70 {
+  margin-bottom: 70px !important;
+}
+#str-header .fs-10,
+#str-footer .fs-10 {
+  font-size: 10px !important;
+}
+#str-header .fs-11,
+#str-footer .fs-11 {
+  font-size: 11px !important;
+}
+#str-header .fs-12,
+#str-footer .fs-12 {
+  font-size: 12px !important;
+}
+#str-header .fs-13,
+#str-footer .fs-13 {
+  font-size: 13px !important;
+}
+#str-header .fs-14,
+#str-footer .fs-14 {
+  font-size: 14px !important;
+}
+#str-header .fs-15,
+#str-footer .fs-15 {
+  font-size: 15px !important;
+}
+#str-header .fs-16,
+#str-footer .fs-16 {
+  font-size: 16px !important;
+}
+#str-header .fs-17,
+#str-footer .fs-17 {
+  font-size: 17px !important;
+}
+#str-header .fs-18,
+#str-footer .fs-18 {
+  font-size: 18px !important;
+}
+#str-header .fs-19,
+#str-footer .fs-19 {
+  font-size: 19px !important;
+}
+#str-header .fs-20,
+#str-footer .fs-20 {
+  font-size: 20px !important;
+}
+#str-header .fs-21,
+#str-footer .fs-21 {
+  font-size: 21px !important;
+}
+#str-header .fs-22,
+#str-footer .fs-22 {
+  font-size: 22px !important;
+}
+#str-header .fs-23,
+#str-footer .fs-23 {
+  font-size: 23px !important;
+}
+#str-header .fs-24,
+#str-footer .fs-24 {
+  font-size: 24px !important;
+}
+#str-header .fs-25,
+#str-footer .fs-25 {
+  font-size: 25px !important;
+}
+#str-header .fs-26,
+#str-footer .fs-26 {
+  font-size: 26px !important;
+}
+#str-header .fs-27,
+#str-footer .fs-27 {
+  font-size: 27px !important;
+}
+#str-header .fs-28,
+#str-footer .fs-28 {
+  font-size: 28px !important;
+}
+#str-header .fs-29,
+#str-footer .fs-29 {
+  font-size: 29px !important;
+}
+#str-header .fs-30,
+#str-footer .fs-30 {
+  font-size: 30px !important;
+}
+#str-header .fs-31,
+#str-footer .fs-31 {
+  font-size: 31px !important;
+}
+#str-header .fs-32,
+#str-footer .fs-32 {
+  font-size: 32px !important;
+}
+#str-header .fs-33,
+#str-footer .fs-33 {
+  font-size: 33px !important;
+}
+#str-header .fs-34,
+#str-footer .fs-34 {
+  font-size: 34px !important;
+}
+#str-header .fs-35,
+#str-footer .fs-35 {
+  font-size: 35px !important;
+}
+#str-header .fs-36,
+#str-footer .fs-36 {
+  font-size: 36px !important;
+}
+#str-header .fs-37,
+#str-footer .fs-37 {
+  font-size: 37px !important;
+}
+#str-header .fs-38,
+#str-footer .fs-38 {
+  font-size: 38px !important;
+}
+#str-header .fs-39,
+#str-footer .fs-39 {
+  font-size: 39px !important;
+}
+#str-header .fs-40,
+#str-footer .fs-40 {
+  font-size: 40px !important;
+}
+
+/* colorbox
+---------------------------------------------*/
+/*
+	Colorbox Core Style:
+	The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox,
+#cboxOverlay,
+#cboxWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  overflow: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+#cboxWrapper {
+  max-width: none;
+}
+
+#cboxOverlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+#cboxMiddleLeft,
+#cboxBottomLeft {
+  clear: left;
+}
+
+#cboxContent {
+  position: relative;
+}
+
+#cboxLoadedContent {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+#cboxTitle {
+  margin: 0;
+}
+
+#cboxLoadingOverlay,
+#cboxLoadingGraphic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#cboxPrevious,
+#cboxNext,
+#cboxClose,
+#cboxSlideshow {
+  cursor: pointer;
+}
+
+.cboxPhoto {
+  float: left;
+  margin: auto;
+  border: 0;
+  display: block;
+  max-width: none;
+  -ms-interpolation-mode: bicubic;
+}
+
+.cboxIframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+#colorbox,
+#cboxContent,
+#cboxLoadedContent {
+  box-sizing: content-box;
+}
+
+/*
+    User Style:
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay {
+  background: #000;
+  opacity: 0.9;
+}
+
+#colorbox {
+  outline: 0;
+}
+
+#cboxBottomLeft {
+  width: 14px;
+  height: 43px;
+}
+
+#cboxBottomCenter {
+  height: 43px;
+}
+
+#cboxBottomRight {
+  width: 14px;
+  height: 43px;
+}
+
+#cboxContent {
+  position: relative;
+  background: #fff;
+  overflow: visible;
+}
+
+.cboxIframe {
+  background: #fff;
+}
+
+#cboxError {
+  padding: 50px;
+  border: 1px solid #ccc;
+}
+
+#cboxTitle {
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  color: #7C7C7C;
+}
+
+#cboxCurrent {
+  position: absolute;
+  bottom: -25px;
+  left: 58px;
+  font-weight: bold;
+  color: #7C7C7C;
+}
+
+#cboxPrevious {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  padding: 0;
+  border-width: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 5px;
+  background: none;
+  vertical-align: middle;
+  cursor: pointer;
+}
+#cboxPrevious::-moz-focus-inner {
+  padding: 0;
+  border: none;
+}
+#cboxPrevious:focus, #cboxPrevious:hover {
+  opacity: 0.5;
+}
+
+#cboxNext {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  padding: 0;
+  border-width: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 5px;
+  background: none;
+  vertical-align: middle;
+  cursor: pointer;
+}
+#cboxNext::-moz-focus-inner {
+  padding: 0;
+  border: none;
+}
+#cboxNext:focus, #cboxNext:hover {
+  opacity: 0.5;
+}
+
+#cboxClose {
+  width: 100%;
+  padding: 10px 5px 7px;
+  border-width: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #14126f;
+  background-color: #cfd6e4;
+}
+@media screen and (max-width: 767px) {
+  #cboxClose {
+    padding: 11px 5px 8px;
+    font-size: 12px;
+  }
+}
+#cboxClose:before {
+  margin-right: 8px;
+  content: url(/shared/images_renew16/icon_close_01.png);
+}
+@media screen and (max-width: 767px) {
+  #cboxClose::before {
+    margin: 0 4px -1px 0;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: url(/shared/images_renew16/icon_close_01.png) no-repeat 0 0;
+    background-size: cover;
+    content: "";
+  }
+}
+#cboxClose:hover, #cboxClose:active, #cboxClose:focus {
+  background-color: #8988b7;
+}
+
+/*# sourceMappingURL=header-footer-base.css.map */

@@ -1,0 +1,306 @@
+﻿
+@charset "utf-8";
+
+.maintitle {
+	position:relative;
+}
+
+
+
+
+.maintitle h2 span {
+	color:#202020;
+    text-shadow: 0 0 5px #FFF; 
+	font-size:20px;
+	
+}
+
+
+.voiceCntInner {
+	width: 980px; 
+	padding: 30px; 
+	margin: 0 auto;
+	box-sizing:border-box;
+}
+.voiceCntInner .voiceDotBd {
+    background: #FFF url("/voice/images/bg_voice_dotborder.gif") repeat-x scroll left bottom;
+    padding-bottom: 30px;
+}
+.voiceCntInner h3 {
+	font-size: 30px;
+	font-weight: bold;
+	color: #131364;
+	margin-bottom:40px;
+}
+.voiceCntInner h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.voiceCntInner .voiceImgL {
+    float: left;
+    width: 220px;
+    padding-right: 20px !important;
+    padding-bottom: 15px !important;
+    margin-bottom: 0px !important;
+}
+.voiceCntInner .voiceImgR {
+    float: right;
+    width: 220px;
+    padding-left: 20px !important;
+    padding-bottom: 15px !important;
+    margin-bottom: 0px !important;
+}
+.voiceCntInner p {
+    margin-bottom: 40px;
+	line-height:1.8em;
+}
+.voiceCntInner > h3:nth-child(2){
+	margin-top:40px;
+}
+
+.voiceCntInner p + h3 {
+	margin-top:80px;
+}
+
+.voiceOther {
+	width: 980px; 
+	padding: 30px; 
+	margin: 36px auto 0;
+	box-sizing:border-box;
+}
+.voiceOther h3 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #131364;
+	margin-bottom: 20px;
+	border-bottom: 2px solid;
+}
+.voiceOther h3 span.small {
+	font-size:14px;
+	color:#333333;
+	margin-left:20px;
+	font-weight:normal;
+}
+.voiceOther li {
+	width:450px;
+	height:208px;
+	list-style:none !important;
+	padding:20px;
+	box-sizing:border-box;
+	border:1px solid #E6E6E6;
+	margin-bottom:20px;
+	position:relative;
+}
+.voiceOther li:nth-child(odd){
+	float:left;
+}
+.voiceOther li:nth-child(even){
+	float:right;
+}
+.voiceOther li p.voiceOtherCntInfo_img{
+	float:left;
+	padding-right:15px !important;
+	margin-bottom:0 !important;
+}
+.voiceOther li .voiceOtherCntInfo_right{
+	float:left;
+	width:300px;
+}
+.voiceOther li p.voiceOtherCntInfo_txtLink{
+	font-size:16px;
+	padding-left:10px !important;
+	background: url(/voice/images/allow_otherVoice.gif) left 7px no-repeat #FFFFFF;
+	margin-bottom:5px !important;
+}
+.voiceOther li p.voiceOtherCntInfo_txtLink span{
+	padding-left:5px;
+}
+.voiceOther li p.voiceOtherCntInfo_txt{
+	font-size:16px;
+	padding-left:10px !important;
+	margin-bottom:0 !important;
+}
+.voiceOther li p.voiceOtherCntInfo_txt span{
+	font-size:16px;
+}
+.voiceOther li p.voiceOtherCntInfo_txtLink a {
+	color: #009EE0;
+	text-decoration: underline;
+}
+.voiceOther li p.voiceOtherCntInfo_txtLink a:hover {
+	color:#FF7800;
+	text-decoration: underline;
+}
+
+
+
+
+
+/* 森さん詳細ページBBCSのCVボタンエリア
+-------------------------------------------------- */
+.contactBox {
+	margin: 10px auto 20px;
+	padding: 33px 30px 0 25px;
+	width: 580px;
+}
+
+.contactBox .text {
+	float: left;
+	margin-top:7px;
+}
+
+.contactBox .btn {
+	float: right;
+}
+
+.contactBox .btn div.m_bottom {
+	margin-bottom:6px;
+}
+
+/* アイコン */
+.maintitle {
+	position:relative;
+}
+.maintitle ul.voiceicon {
+	position: absolute;
+	left: 3px;
+	bottom: 20px;
+}
+.maintitle ul.voiceicon li{
+	width: auto;
+	height:25px;
+	text-align:center;
+	list-style: none !important;
+	padding: 2px 10px;
+	box-sizing: border-box;
+	border: none;
+	margin-bottom: 0px;
+	font-size:14px;
+	float:left;
+	margin-right:2px;
+}
+.voiceOther .voicelist {
+	margin-bottom:60px;	
+}
+.voiceOther ul.voiceicon {
+	position:absolute;
+	right:10px;
+	bottom:10px;	
+}
+.voiceOther ul.voiceicon li{
+	width: auto;
+	height:22px;
+	text-align:center;
+	list-style: none !important;
+	padding: 2px 10px;
+	box-sizing: border-box;
+	border: none;
+	margin-bottom: 0px;
+	font-size:11px;
+	float:left;
+	margin-right:2px;
+}
+
+ul.voiceicon .beginer {
+	background-color:#53538c;
+	color:#fff;
+}
+ul.voiceicon .Intermediate {
+	background-color:#53538c;
+	color:#fff;	
+}
+ul.voiceicon .advanced{
+	background-color:#53538c;
+	color:#fff;	
+}
+ul.voiceicon .mantoman{
+	background-color:#A4A4C5;
+	color:#FFF;	
+}
+ul.voiceicon .group{
+	background-color:#A4A4C5;
+	color:#FFF;	
+}
+ul.voiceicon .intensive{
+	background-color:#7979a7;
+	color:#FFF;	
+}
+ul.voiceicon .bbcs {
+	background-color:#7979a7;
+	color:#FFF;	
+}
+
+
+/*171107追記*/
+.note {
+	font-size:12px;
+	}
+.leadWrap {
+    max-width: 920px;
+    margin: 40px auto;
+}
+p.voice_lead {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: #131364;
+}
+.leadWrap .flex {
+		justify-content: space-between;
+	}
+.leadWrap .flex li {
+	text-align:center;
+	    width: 30%;
+	}
+.leadWrap .flex li span {
+    font-size: 18px;
+    font-weight: 200;
+}
+.leadWrap .flex li a[href] {
+	position:relative;
+    color: #131364;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 21px;
+    text-align: center;
+    display: block;
+    border: 1px solid #131364;
+    padding: 20px 0 38px;
+    background-color: #fff;
+}
+.leadWrap .flex li a[href]::after {
+    width: 8px;
+    height: 8px;
+    margin-right: -8px;
+    border-right: 3px solid #131364;
+    border-bottom: 3px solid #131364;
+    display: block;
+    position: absolute;
+    right: 50%;
+    bottom: 16px;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(45deg);
+    content: "";
+}
+.leadWrap .flex li a[href]:hover {
+	background-color: rgba(0, 28, 88, 0.1);
+	}
+.leadWrap .flex li a[href]:hover::after {
+    width: 8px;
+    height: 8px;
+    margin-right: -8px;
+    border-right: 3px solid #131364;
+    border-bottom: 3px solid #131364;
+    display: block;
+    position: absolute;
+    right: 50%;
+    bottom: 13px;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(45deg);
+    content: "";
+}
+.txt-R {
+	text-align: right;
+	}

@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="ja en">
+<head>
+    <title>Berlitz videos</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- Local stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- ogp -->
+    <meta property="og:url" content="http://www.berlitz.co.jp/">
+    <meta property="og:type"  content="article">
+    <meta property="og:title" content="Berlit Videos">
+    <meta property="og:image" content="http://www.berlitz.co.jp/voice/images/main00.jpg">
+    <meta property="og:description" content="">
+    <meta name="Keywords" content="" />
+    <meta property="og:site_name" content="ベルリッツ・ジャパン">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="margin: 0;">
+        <img class="navbar-brand" src="img/Berlitz_logo.png" alt="Logo"></img>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navb">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link disabled">Choose language:</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link eng-flag" href="javascript:void(0)">English</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link jpn-flag" href="javascript:void(0)">日本語</a>
+                </li>
+            </ul>
+
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-primary my-2 my-sm-0" type="button">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- MAIN HEADING -->
+    <div class="carousel slide" data-ride="carousel" style="margin-bottom: 4em; margin-top: 0">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/tokyoskyline.jpg" alt="Tokyo Skyline" style="width: 100%; filter: grayscale(100%);">
+                <div class="carousel-caption">
+                    <h1 class="jpn-lang" style="font-size: 450%">ベルリッツの動画</h1>
+                    <h1 class="eng-lang" style="font-size: 450%">Berlitz Videos</h1>
+                    <h2 class="jpn-lang" style="font-size: 250%">動画でわかるベルリッツ</h2>
+                    <h2 class="eng-lang" style="font-size: 250%">To understand more about Berlitz</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN PAGE -->
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h1 class="display-4 main-header jpn-lang">観る動画をお選びください</h1>
+                <h1 class="display-4 main-header eng-lang">Please choose a video to watch</h1>
+                <hr />
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-primary btn-block"  style="margin: 2em 1em 1em 1em; padding: 2em 1em;" data-toggle="collapse" data-target="#interview">
+                    <h2 class="jpn-lang">上達動画</h2>
+                    <h2 class="eng-lang">Progress videos</h2>
+                    <hr />
+                    <h4 class="jpn-lang">レベル別</h4>
+                    <h4 class="eng-lang">By level</h4>
+                </button>
+            </div>
+            <div id="interview" class="collapse col-sm-12">
+                <h4 style="color: #131364; margin-top: 1em;" class="jpn-lang font-weight-bold">インタビュー&amp;上達動画</h4>
+                <h4 style="color: #131364; margin-top: 1em;" class="eng-lang font-weight-bold">Interview &amp; progress video</h4>
+                <hr />
+                <div class="container">
+                    <div class="row card_row">
+                        <div class="col">
+                            <div class="card mx-auto" style="width:250px">
+                                <img class="card-img-top" src="img\be_lvl2.png" alt="Card image" style="width: 250px">
+                                <div class="card-body">
+                                    <h4 class="card-title jpn-lang">レベル 2 修了</h4>
+                                    <h4 class="card-title eng-lang">Level 2 completion</h4>
+                                    <p class="card-text jpn-lang">バージョン:</p>
+                                    <p class="card-text eng-lang">Version:</p>
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                           <span class="jpn-lang">ビデオ</span>
+                                           <span class="eng-lang">VIDEO</span>
+                                        </button>
+                                        <div class="dropdown-menu">
+                                          <a class="dropdown-item jpn-lang" href="#" data-toggle="modal" data-target="#Modal-lvl2-short">ショート</a>
+                                          <a class="dropdown-item eng-lang" href="#" data-toggle="modal" data-target="#Modal-lvl2-short">Short</a>
+                                          <a class="dropdown-item jpn-lang" href="#" data-toggle="modal" data-target="#Modal-lvl2-long">ロング</a>
+                                          <a class="dropdown-item eng-lang" href="#" data-toggle="modal" data-target="#Modal-lvl2-long">Long</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mx-auto" style="width:250px">
+                                <img class="card-img-top" src="img\be_lvl3.png" alt="Card image" style="width: 250px">
+                                <div class="card-body">
+                                    <h4 class="card-title jpn-lang">レベル 3 修了</h4>
+                                    <h4 class="card-title eng-lang">Level 3 completion</h4>
+                                    <p class="card-text jpn-lang">バージョン:</p>
+                                    <p class="card-text eng-lang">Version:</p>
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                            <span class="jpn-lang">ビデオ</span>
+                                            <span class="eng-lang">VIDEO</span>
+                                        </button>
+                                        <div class="dropdown-menu">
+                                          <a class="dropdown-item jpn-lang" href="#" data-toggle="modal" data-target="#Modal-lvl3-short">ショート</a>
+                                          <a class="dropdown-item eng-lang" href="#" data-toggle="modal" data-target="#Modal-lvl3-short">Short</a>
+                                          <a class="dropdown-item jpn-lang" href="#" data-toggle="modal" data-target="#Modal-lvl3-long">ロング</a>
+                                          <a class="dropdown-item eng-lang" href="#" data-toggle="modal" data-target="#Modal-lvl3-long">Long</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary btn-block" style="margin: 2em 1em 1em 1em; padding: 2em 1em;" data-toggle="collapse" data-target="#be-levels">
+                    <h2 class="jpn-lang">ベルリッツの指導法</h2>
+                    <h2 class="eng-lang">Berlitz's teaching method</h2>
+                    <hr />
+                    <h4 class="jpn-lang">レベル別</h4>
+                    <h4 class="eng-lang">By level</h4>
+                </button>
+            </div>
+            <div id="be-levels" class="collapse col-sm-12">
+                <h4 style="color: #131364; margin-top: 1em;" class="font-weight-bold jpn-lang">ベルリッツの指導法</h4>
+                <h4 style="color: #131364; margin-top: 1em;" class="font-weight-bold eng-lang">Teaching methods of Berlitz</h4>
+                <hr />
+                <div class="container">
+                    <div class="row card_row" style="margin-bottom: 2em;">
+                        <div class="col">
+                            <div class="card mx-auto" style="width:250px">
+                                <img class="card-img-top" src="img\be_lvl1.png" alt="Card image" style="width: 250px">
+                                <div class="card-body">
+                                    <h4 class="card-title jpn-lang">レベル 1</h4>
+                                    <h4 class="card-title eng-lang">Level 1</h4>
+                                    <p class="card-text jpn-lang">指導法:</p>
+                                    <p class="card-text eng-lang">Teaching method:</p>
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                            <span class="jpn-lang">ビデオ</span>
+                                            <span class="eng-lang">VIDEO</span>
+                                        </button>
+                                        <div class="dropdown-menu">
+                                          <a class="dropdown-item jpn-lang" href="#" data-toggle="modal" data-target="#Modal-lvl1-full">フルセンテンス</a>
+                                          <a class="dropdown-item eng-lang" href="#" data-toggle="modal" data-target="#Modal-lvl1-full">Full sentence</a>
+                                          <a class="dropdown-item jpn-lang" href="#" data-toggle="modal" data-target="#Modal-lvl1-feedback">訂正と反復練習</a>
+                                          <a class="dropdown-item eng-lang" href="#" data-toggle="modal" data-target="#Modal-lvl1-feedback">Correction</a>
+                                          <a class="dropdown-item" href="#" data-toggle="modal" data-target="#Modal-lvl1-aaa">A++</a>
+                                          <a class="dropdown-item jpn-lang" href="#" data-toggle="modal" data-target="#Modal-lvl1-lvldown">レベルダウンテクニック</a>
+                                          <a class="dropdown-item eng-lang" href="#" data-toggle="modal" data-target="#Modal-lvl1-lvldown">Level down</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mx-auto" style="width:250px">
+                                <img class="card-img-top" src="img\be_lvl2a.png" alt="Card image" style="width: 250px">
+                                <div class="card-body">
+                                    <h4 class="card-title jpn-lang">レベル 2</h4>
+                                    <h4 class="card-title eng-lang">Level 2</h4>
+                                    <p class="card-text jpn-lang">指導法:</p>
+                                    <p class="card-text eng-lang">Teaching method:</p>
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                            <span class="jpn-lang">ビデオ</span>
+                                            <span class="eng-lang">VIDEO</span>
+                                        </button>
+                                        <div class="dropdown-menu">
+                                          <a class="dropdown-item jpn-lang" href="#" data-toggle="modal" data-target="#Modal-lvl2-full">フルセンテンス</a>
+                                          <a class="dropdown-item eng-lang" href="#" data-toggle="modal" data-target="#Modal-lvl2-full">Full sentence</a>
+                                          <a class="dropdown-item jpn-lang" href="#" data-toggle="modal" data-target="#Modal-lvl2-feedback">訂正と反復練習</a>
+                                          <a class="dropdown-item eng-lang" href="#" data-toggle="modal" data-target="#Modal-lvl2-feedback">Correction</a>
+                                          <a class="dropdown-item" href="#" data-toggle="modal" data-target="#Modal-lvl2-aaa">A++</a>
+                                          <a class="dropdown-item jpn-lang" href="#" data-toggle="modal" data-target="#Modal-lvl2-lvldown">レベルダウンテクニック</a>
+                                          <a class="dropdown-item eng-lang" href="#" data-toggle="modal" data-target="#Modal-lvl2-lvldown">Level down</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row card_row" style="margin-bottom: 2em">
+                        <div class="col">
+                            <div class="card mx-auto" style="width:250px">
+                                <img class="card-img-top" src="img\be_lvl4.png" alt="Card image" style="width: 250px">
+                                <div class="card-body">
+                                    <h4 class="card-title jpn-lang">レベル 4</h4>
+                                    <h4 class="card-title eng-lang">Level 4</h4>
+                                    <p class="card-text jpn-lang">指導法:</p>
+                                    <p class="card-text eng-lang">Teaching method:</p>
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                           <span class="jpn-lang">ビデオ</span>
+                                           <span class="eng-lang">VIDEO</span>
+                                        </button>
+                                        <div class="dropdown-menu">
+                                          <a class="dropdown-item jpn-lang" href="#" data-toggle="modal" data-target="#Modal-lvl4-full">フルセンテンス</a>
+                                          <a class="dropdown-item eng-lang" href="#" data-toggle="modal" data-target="#Modal-lvl4-full">Full sentence</a>
+                                          <a class="dropdown-item jpn-lang" href="#" data-toggle="modal" data-target="#Modal-lvl4-feedback">訂正と反復練習</a>
+                                          <a class="dropdown-item eng-lang" href="#" data-toggle="modal" data-target="#Modal-lvl4-feedback">Correction</a>
+                                          <a class="dropdown-item" href="#" data-toggle="modal" data-target="#Modal-lvl4-aaa">A++</a>
+                                          <a class="dropdown-item jpn-lang" href="#" data-toggle="modal" data-target="#Modal-lvl4-lvldown">レベルダウンテクニック</a>
+                                          <a class="dropdown-item eng-lang" href="#" data-toggle="modal" data-target="#Modal-lvl4-lvldown">Level down</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mx-auto" style="width:250px">
+                                <img class="card-img-top" src="img\be_lvl6.png" alt="Card image" style="width: 250px">
+                                <div class="card-body">
+                                    <h4 class="card-title jpn-lang">レベル 6</h4>
+                                    <h4 class="card-title eng-lang">Level 6</h4>
+                                    <p class="card-text jpn-lang">指導法:</p>
+                                    <p class="card-text eng-lang">Teaching method:</p>
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                            <span class="jpn-lang">ビデオ</span>
+                                            <span class="eng-lang">VIDEO</span>
+                                        </button>
+                                        <div class="dropdown-menu">
+                                          <a class="dropdown-item jpn-lang" href="#" data-toggle="modal" data-target="#Modal-lvl6-full">フルセンテンス</a>
+                                          <a class="dropdown-item eng-lang" href="#" data-toggle="modal" data-target="#Modal-lvl6-full">Full sentence</a>
+                                          <a class="dropdown-item jpn-lang" href="#" data-toggle="modal" data-target="#Modal-lvl6-feedback">訂正と反復練習</a>
+                                          <a class="dropdown-item eng-lang" href="#" data-toggle="modal" data-target="#Modal-lvl6-feedback">Correction</a>
+                                          <a class="dropdown-item" href="#" data-toggle="modal" data-target="#Modal-lvl6-aaa">A++</a>
+                                          <a class="dropdown-item jpn-lang" href="#" data-toggle="modal" data-target="#Modal-lvl6-lvldown">レベルダウンテクニック</a>
+                                          <a class="dropdown-item eng-lang" href="#" data-toggle="modal" data-target="#Modal-lvl6-lvldown">Level down</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-primary btn-block" style="margin: 1em 1em 2em 1em; padding: 2em 1em;" data-toggle="collapse" data-target="#be-method">
+                    <h2 class="jpn-lang">Berlitz Methodとは？</h2>
+                    <h2 class="eng-lang">What is the Berlitz Method?</h2>
+                    <hr />
+                    <h4 class="jpn-lang">学術的バックグラウンド</h4>
+                    <h4 class="eng-lang">Academic background</h4>
+                </button>
+            </div>
+            <div id="be-method" class="collapse col-md-12">
+                <h4 style="color: #131364; margin-top: 1em;" class="font-weight-bold jpn-lang">Berlitz Methodとは？</h4>
+                <h4 style="color: #131364; margin-top: 1em;" class="font-weight-bold eng-lang">What is the Berlitz method?</h4>
+                <hr />
+                <div class="container" style="margin-top: 2em; margin-bottom: 2em;">
+                    <div class="row">
+                         <div class="col-md-2">   
+                            <div class="row">
+                                <div class="col">
+                                    <img src="img/berlitz_method_logo.png" alt="" style="max-width: 100%">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="jpn-lang font-weight-light text-secondary small">Over the years, the Berlitz Method® has evolved in line with the latest research and technology. But it has remained faithful to a proven, effective core approach, based around five key principles</p>
+                                    <p class="eng-lang font-weight-light text-secondary small">Over the years, the Berlitz Method® has evolved in line with the latest research and technology. But it has remained faithful to a proven, effective core approach, based around five key principles</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 bg-danger rounded text-white text-center border border-white" >   
+                            <div class="row">
+                                <div class="col lead">
+                                    <p><u>Principle 1</u></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="jpn-lang">レッスンでは日本語を使用しない。</h5>
+                                    <h5 class="eng-lang">Exclusive use of the target language</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <button type="button" class="btn btn-danger btn-block font-italic small" data-toggle="collapse" data-target="#principle1">More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 bg-info rounded text-white text-center border border-white">   
+                            <div class="row">
+                                <div class="col lead">
+                                    <p><u>Principle 2</u></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="jpn-lang">レッスンは、話す・聴くに集中する。</h5>
+                                    <h5 class="eng-lang">Speaking and listening, supported by reading and writing</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <button type="button" class="btn btn-info btn-block font-italic small" data-toggle="collapse" data-target="#principle2">More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 bg-success rounded text-white text-center border border-white">   
+                            <div class="row">
+                                <div class="col lead">
+                                    <p><u>Principle 3</u></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="jpn-lang">文法・語彙は会話のなかで自然に身につける。</h5>
+                                    <h5 class="eng-lang">Grammar as a means of communication</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <button type="button" class="btn btn-success btn-block font-italic small" data-toggle="collapse" data-target="#principle3">More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 rounded text-white text-center border border-white" style="background-color: purple;">   
+                            <div class="row">
+                                <div class="col lead">
+                                    <p><u>Principle 4</u></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="jpn-lang">レッスンへの積極参加を促し、話す時間を最大化。</h5>
+                                    <h5 class="eng-lang">Maximum learner participation</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <button type="button" class="btn btn-light btn-block text-white font-italic small purple-button" style="background-color: purple; border: none"  data-toggle="collapse" data-target="#principle5">More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 bg-warning rounded text-white text-center border border-white">   
+                            <div class="row">
+                                <div class="col lead">
+                                    <p><u>Principle 5</u></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="jpn-lang">学習者のニーズに合わせて、目標（ゴール）と指導法をアレンジ。</h5>
+                                    <h5 class="eng-lang">Goal-oriented, lively instruction based on the learners needs and interests</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <button type="button" class="btn btn-warning btn-block text-white font-italic small" data-toggle="collapse" data-target="#principle5">More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary btn-block" style="margin: 1em 1em 2em 1em; padding: 2em 1em;" data-toggle="collapse" data-target="#toeic">
+                    <h2 class="jpn-lang">【首都圏】TOEICグループデモ</h2>
+                    <h2 class="eng-lang">TOEIC key area group demo</h2>
+                    <hr />
+                    <h4 class="jpn-lang">レッスンの様子</h4>
+                    <h4 class="eng-lang">Lesson overview</h4>
+                </button>
+            </div>
+            <div id="toeic" class="collapse col-md-12">
+                <h4 style="color: #131364; margin-top: 1em;" class="font-weight-bold jpn-lang">【首都圏】TOEICグループコース</h4>
+                <h4 style="color: #131364; margin-top: 1em;" class="font-weight-bold eng-lang">Key areas of the TOEIC group course</h4>
+                <hr />
+                <div class="container">
+                    <div class="row card_row">
+                        <div class="col">
+                            <div class="card mx-auto" style="width:250px">
+                                <img class="card-img-top" src="img\toeic.png" alt="Card image" style="width: 250px">
+                                <div class="card-body">
+                                    <h4 class="card-title">TOEIC</h4>
+                                    <p class="card-text jpn-lang">レッスンの様子:</p>
+                                    <p class="card-text eng-lang">Lesson overview:</p>
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-primary" href="#" data-toggle="modal" data-target="#Modal-toeic">
+                                           <span class="jpn-lang">ビデオ</span>
+                                           <span class="eng-lang">VIDEO</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal-lvl2-short -->
+    <div class="modal fade" id="Modal-lvl2-short">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title text-primary jpn-lang"><span class="font-weight-bold">レベル 2 修了</span> (ショートバージョン)</h4>
+                  <h4 class="modal-title text-primary eng-lang"><span class="font-weight-bold">Level 2 Completion</span> (Short version)</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="250" height="140" src="https://www.youtube.com/embed/Sh5svUp5_QE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary jpn-lang" data-dismiss="modal">閉</button>
+                  <button type="button" class="btn btn-primary eng-lang" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal-lvl2-long -->
+    <div class="modal fade" id="Modal-lvl2-long">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title text-primary jpn-lang"><span class="font-weight-bold">レベル 2 修了</span> (ロングバージョン)</h4>
+                  <h4 class="modal-title text-primary eng-lang"><span class="font-weight-bold">Level 2 Completion</span> (Long version)</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="250" height="140" src="https://www.youtube.com/embed/SmnXg2pGWlY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary jpn-lang" data-dismiss="modal">閉</button>
+                    <button type="button" class="btn btn-primary eng-lang" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal-lvl3-short -->
+    <div class="modal fade" id="Modal-lvl3-short">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title text-primary jpn-lang"><span class="font-weight-bold">レベル 3 修了</span> (ショートバージョン)</h4>
+                  <h4 class="modal-title text-primary eng-lang"><span class="font-weight-bold">Level 3 Completion</span> (Short version)</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="250" height="140" src="https://www.youtube.com/embed/uMc6-Imgv0c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary jpn-lang" data-dismiss="modal">閉</button>
+                  <button type="button" class="btn btn-primary eng-lang" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal-lvl3-long -->
+    <div class="modal fade" id="Modal-lvl3-long">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title text-primary jpn-lang"><span class="font-weight-bold">レベル 3 修了</span> (ロングバージョン)</h4>
+                  <h4 class="modal-title text-primary eng-lang"><span class="font-weight-bold">Level 3 Completion</span> (Long version)</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="250" height="140" src="https://www.youtube.com/embed/sBM9tgGbtUA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary jpn-lang" data-dismiss="modal">閉</button>
+                    <button type="button" class="btn btn-primary eng-lang" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal-lvl1-full -->
+    <div class="modal fade" id="Modal-lvl1-full">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title text-primary jpn-lang"><span class="font-weight-bold">ベルリッツの指導法 １：</span><br />フルセンテンス</h4>
+                  <h4 class="modal-title text-primary eng-lang"><span class="font-weight-bold">Berlitz Teaching Method 1：</span><br />Full sentences</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="250" height="140" src="https://www.youtube.com/embed/ltM-BlJrVN4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary jpn-lang" data-dismiss="modal">閉</button>
+                    <button type="button" class="btn btn-primary eng-lang" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal-lvl1Modal-lvl1-feedback -->
+    <div class="modal fade" id="Modal-lvl1-feedback">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title text-primary jpn-lang"><span class="font-weight-bold">ベルリッツの指導法 2：</span><br />訂正と反復練習</h4>
+                  <h4 class="modal-title text-primary eng-lang"><span class="font-weight-bold">Berlitz Teaching Method 2：</span><br />Corrections</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="250" height="140" src="https://www.youtube.com/embed/ltM-BlJrVN4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary jpn-lang" data-dismiss="modal">閉</button>
+                    <button type="button" class="btn btn-primary eng-lang" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal-lvl1-aaa -->
+    <div class="modal fade" id="Modal-lvl1-aaa">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title text-primary jpn-lang"><span class="font-weight-bold">ベルリッツの指導法 3：</span><br />A++</h4>
+                  <h4 class="modal-title text-primary eng-lang"><span class="font-weight-bold">Berlitz Teaching Method 3：</span><br />A++</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="250" height="140" src="https://www.youtube.com/embed/ltM-BlJrVN4?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary jpn-lang" data-dismiss="modal">閉</button>
+                    <button type="button" class="btn btn-primary eng-lang" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal-lvl1-lvldown -->
+    <div class="modal fade" id="Modal-lvl1-lvldown">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title text-primary jpn-lang"><span class="font-weight-bold">ベルリッツの指導法 4：</span><br />レベルダウンテクニック</h4>
+                  <h4 class="modal-title text-primary eng-lang"><span class="font-weight-bold">Berlitz Teaching Method 4：</span><br />Level down</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="250" height="140" src="https://www.youtube.com/embed/ltM-BlJrVN4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary jpn-lang" data-dismiss="modal">閉</button>
+                    <button type="button" class="btn btn-primary eng-lang" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal-lvl2-full -->
+    <div class="modal fade" id="Modal-lvl2-full">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title text-primary jpn-lang"><span class="font-weight-bold">ベルリッツの指導法 １：</span><br />フルセンテンス</h4>
+                  <h4 class="modal-title text-primary eng-lang"><span class="font-weight-bold">Berlitz Teaching Method 1：</span><br />Full sentences</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="250" height="140" src="https://www.youtube.com/embed/7hb9PC48BRk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary jpn-lang" data-dismiss="modal">閉</button>
+                    <button type="button" class="btn btn-primary eng-lang" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal-lvl1Modal-lvl2-feedback -->
+    <div class="modal fade" id="Modal-lvl2-feedback">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title text-primary jpn-lang"><span class="font-weight-bold">ベルリッツの指導法 2：</span><br />訂正と反復練習</h4>
+                  <h4 class="modal-title text-primary eng-lang"><span class="font-weight-bold">Berlitz Teaching Method 2：</span><br />Corrections</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="250" height="140" src="https://www.youtube.com/embed/7hb9PC48BRk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary jpn-lang" data-dismiss="modal">閉</button>
+                    <button type="button" class="btn btn-primary eng-lang" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal-lvl2-aaa -->
+    <div class="modal fade" id="Modal-lvl2-aaa">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title text-primary jpn-lang"><span class="font-weight-bold">ベルリッツの指導法 3：</span><br />A++</h4>
+                  <h4 class="modal-title text-primary eng-lang"><span class="font-weight-bold">Berlitz Teaching Method 3：</span><br />A++</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="250" height="140" src="https://www.youtube.com/embed/7hb9PC48BRk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <<button type="button" class="btn btn-primary jpn-lang" data-dismiss="modal">閉</button>
+                  <button type="button" class="btn btn-primary eng-lang" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal-lvl2-lvldown -->
+    <div class="modal fade" id="Modal-lvl2-lvldown">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title text-primary jpn-lang"><span class="font-weight-bold">ベルリッツの指導法 4：</span><br />レベルダウンテクニック</h4>
+                  <h4 class="modal-title text-primary eng-lang"><span class="font-weight-bold">Berlitz Teaching Method 4：</span><br />Level down</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="250" height="140" src="https://www.youtube.com/embed/7hb9PC48BRk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary jpn-lang" data-dismiss="modal">閉</button>
+                  <button type="button" class="btn btn-primary eng-lang" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal-lvl4-full -->
+    <div class="modal fade" id="Modal-lvl4-full">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title text-primary jpn-lang"><span class="font-weight-bold">ベルリッツの指導法 １：</span><br />フルセンテンス</h4>
+                  <h4 class="modal-title text-primary eng-lang"><span class="font-weight-bold">Berlitz Teaching Method 1：</span><br />Full sentences</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="250" height="140" src="https://www.youtube.com/embed/QbgwmB19SNo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary jpn-lang" data-dismiss="modal">閉</button>
+                  <button type="button" class="btn btn-primary eng-lang" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal-lvl1Modal-lvl4-feedback -->
+    <div class="modal fade" id="Modal-lvl4-feedback">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title text-primary jpn-lang"><span class="font-weight-bold">ベルリッツの指導法 2：</span><br />訂正と反復練習</h4>
+                  <h4 class="modal-title text-primary eng-lang"><span class="font-weight-bold">Berlitz teaching Method 2：</span><br />Corrections</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="250" height="140" src="https://www.youtube.com/embed/QbgwmB19SNo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary jpn-lang" data-dismiss="modal">閉</button>
+                  <button type="button" class="btn btn-primary eng-lang" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal-lvl4-aaa -->
+    <div class="modal fade" id="Modal-lvl4-aaa">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title text-primary jpn-lang"><span class="font-weight-bold">ベルリッツの指導法 3：</span><br />A++</h4>
+                  <h4 class="modal-title text-primary eng-lang"><span class="font-weight-bold">Berlitz Teaching Method 3：</span><br />A++</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="250" height="140" src="https://www.youtube.com/embed/QbgwmB19SNo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary jpn-lang" data-dismiss="modal">閉</button>
+                    <button type="button" class="btn btn-primary eng-lang" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal-lvl4-lvldown -->
+    <div class="modal fade" id="Modal-lvl4-lvldown">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title text-primary jpn-lang"><span class="font-weight-bold">ベルリッツの指導法 4：</span><br />レベルダウンテクニック</h4>
+                  <h4 class="modal-title text-primary eng-lang"><span class="font-weight-bold">Berlitz Teaching Method 4：</span><br />Level down</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="250" height="140" src="https://www.youtube.com/embed/QbgwmB19SNo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary jpn-lang" data-dismiss="modal">閉</button>
+                    <button type="button" class="btn btn-primary eng-lang" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal-lvl6-full -->
+    <div class="modal fade" id="Modal-lvl6-full">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title text-primary jpn-lang"><span class="font-weight-bold">ベルリッツの指導法 １：</span><br />フルセンテンス</h4>
+                  <h4 class="modal-title text-primary eng-lang"><span class="font-weight-bold">Berlitz Teaching Method １：</span><br />Full sentences</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe src="https://www.youtube.com/embed/KHMORxuOeAU?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="643" height="360" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary jpn-lang" data-dismiss="modal">閉</button>
+                    <button type="button" class="btn btn-primary eng-lang" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal-lvl1Modal-lvl6-feedback -->
+    <div class="modal fade" id="Modal-lvl6-feedback">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title text-primary jpn-lang"><span class="font-weight-bold">ベルリッツの指導法 2：</span><br />訂正と反復練習</h4>
+                  <h4 class="modal-title text-primary eng-lang"><span class="font-weight-bold">Berlitz Teaching Method 2：</span><br />Corrections</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="250" height="140" src="https://www.youtube.com/embed/KHMORxuOeAU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary jpn-lang" data-dismiss="modal">閉</button>
+                  <button type="button" class="btn btn-primary eng-lang" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal-lvl6-aaa -->
+    <div class="modal fade" id="Modal-lvl6-aaa">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title text-primary jpn-lang"><span class="font-weight-bold">ベルリッツの指導法 3：</span><br />A++</h4>
+                  <h4 class="modal-title text-primary eng-lang"><span class="font-weight-bold">Berlitz Teaching Method 3：</span><br />A++</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="250" height="140" src="https://www.youtube.com/embed/KHMORxuOeAU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary jpn-lang" data-dismiss="modal">閉</button>
+                    <button type="button" class="btn btn-primary eng-lang" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal-lvl6-lvldown -->
+    <div class="modal fade" id="Modal-lvl6-lvldown">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title text-primary jpn-lang"><span class="font-weight-bold">ベルリッツの指導法 4：</span><br />レベルダウンテクニック</h4>
+                  <h4 class="modal-title text-primary eng-lang"><span class="font-weight-bold">Berlitz Teaching Method 4：</span><br />Level down</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="250" height="140" src="https://www.youtube.com/embed/KHMORxuOeAU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary jpn-lang" data-dismiss="modal">閉</button>
+                    <button type="button" class="btn btn-primary eng-lang" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal-toeic -->
+    <div class="modal fade" id="Modal-toeic">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title text-primary jpn-lang"><span class="font-weight-bold">TOEICコースレッスンの様子</h4>
+                  <h4 class="modal-title text-primary eng-lang"><span class="font-weight-bold">TOEIC Course Observation</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="250" height="140" src="https://www.youtube.com/embed/pHVq2AlzvCo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary jpn-lang" data-dismiss="modal">閉</button>
+                    <button type="button" class="btn btn-primary eng-lang" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- SPACER -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col" style="margin: 1em;">
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <img class="navbar-brand" src="img/Berlitz_logo.png" alt="Logo"></img>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link">&copy; Berlitz Japan 2018</a>
+            </li>
+        </ul>
+    </nav>
+
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
