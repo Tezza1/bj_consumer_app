@@ -55,9 +55,15 @@
     background-color: #8B008B !important;
 }
 
+/* Social media */
+.fas, .fab {
+    font-size: 130%;
+}
+
 /* Display language */
 .eng-lang {
     display: none;
 }
+
 
 

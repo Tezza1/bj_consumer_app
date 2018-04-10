@@ -16,10 +16,10 @@ class Navbar extends Component {
                                 <a className="nav-link disabled">Choose language:</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link eng-flag" href="javascript:void(0)">English</a>
+                                <a className="nav-link eng-flag" style={{cursor: "pointer"}}>English</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link jpn-flag" href="javascript:void(0)">日本語</a>
+                                <a className="nav-link jpn-flag" style={{cursor: "pointer"}}>日本語</a>
                             </li>
                         </ul>
             

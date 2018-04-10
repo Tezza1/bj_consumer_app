@@ -192,7 +192,7 @@ const ModalLevel = () => {
                         {/* Modal body */}
                         <div className="modal-body">
                             <div className="embed-responsive embed-responsive-16by9">
-                                <iframe lvl2-aaa src="https://www.youtube.com/embed/7hb9PC48BRk" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+                                <iframe title="lvl2-aaa" src="https://www.youtube.com/embed/7hb9PC48BRk" allow="autoplay; encrypted-media" allowFullScreen></iframe>
                             </div>
                         </div>
         

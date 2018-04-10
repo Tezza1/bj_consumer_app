@@ -10,6 +10,20 @@ const Footer = () => {
                         <a className="nav-link disabled">&copy; Berlitz Japan 2018</a>
                     </li>
                 </ul>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                      <a class="nav-link" href="http://www.berlitz.co.jp/"><i class="fas fa-home"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://www.facebook.com/BerlitzJapan/"><i class="fab fa-facebook-square"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://twitter.com/berlitz_japan"><i class="fab fa-twitter-square"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://www.linkedin.com/company/berlitz-corporation/?originalSubdomain=jp"><i class="fab fa-linkedin"></i></a>
+                    </li>
+                </ul>
             </nav>
         </div>
     );

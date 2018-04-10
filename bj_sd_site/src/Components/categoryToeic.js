@@ -10,7 +10,7 @@ const CategoryToeic = () => {
                 <div class="row card_row">
                     <div class="col">
                         <div class="card mx-auto" style={{width:250}}>
-                            <img class="card-img-top" src={require('../Images/toeic.png')} alt="Card image" style={{width: 250}}></img>
+                            <img class="card-img-top" src={require('../Images/toeic.png')} alt="" style={{width: 250}}></img>
                             <div class="card-body">
                                 <h4 class="card-title">TOEIC</h4>
                                 <p class="card-text jpn-lang">レッスンの様子:</p>
